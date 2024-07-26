@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "GlobalChat App (Chatting application)",
     des: "Developed using Flutter (Provider as Statemanagement tool) and Firebase (Firebase Authentication, Firestore Database).",
-    img: "./p2.svg",
+    img: "./globalchat.png",
     iconLists: ["./dart.svg", "./flutter.svg","./firebase.svg"],
     link: "https://github.com/godgiftedboy/GlobalChat-app-Flutter-",
   },
