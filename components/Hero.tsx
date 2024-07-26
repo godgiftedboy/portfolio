@@ -1,6 +1,8 @@
 import React from 'react'
 import {Spotlight} from '../components/ui/Spotlight'
 import {TextGenerateEffect} from '../components/ui/TextGenerateEffect'
+import MagicButton from '../components/ui/MagicButton'
+import { FaLocationArrow } from 'react-icons/fa';
 const Hero = () => {
   return (
     <div className='pb-20 pt-36'>
@@ -21,13 +23,16 @@ const Hero = () => {
               <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
                 Dyanmic Web Magic With Next.js
               </h2>
-              <TextGenerateEffect words="Trnasforming Concepts into Seamless Experiences"
+              <TextGenerateEffect words="Transforming Concepts into Seamless User Experiences"
               className='text-center text-[40px] md:text-5xl lg:text-6xl'>
 
               </TextGenerateEffect>
               <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                 Hi! I&apos;m Raj, Web Developer
               </p>
+              <a href="#about">
+                <MagicButton title='My Works' icon={<FaLocationArrow/>} position={'right'}/>
+              </a>
             </div>
           </div>
     </div>
