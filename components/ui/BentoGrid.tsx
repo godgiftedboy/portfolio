@@ -151,7 +151,7 @@ export const BentoGridItem = ({
                 className={`absolute -bottom-8 right-0 ${copied ? "block" : "block"
                   }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
+                {/* <img src="./confetti.gif" alt="confetti" /> */}
                 <Lottie options={defaultOptions} height={200} width={400} />
                 <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
