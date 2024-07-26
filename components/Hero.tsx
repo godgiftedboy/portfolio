@@ -21,16 +21,16 @@ const Hero = () => {
         <div className='flex justify-center relative my-20 z-10'>
             <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'> 
               <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                Dyanmic Web Magic With Next.js
+                Web / Flutter Developer
               </h2>
-              <TextGenerateEffect words="Transforming Concepts into Seamless User Experiences"
+              <TextGenerateEffect words="Strong Eagerness to Learn and Grow"
               className='text-center text-[40px] md:text-5xl lg:text-6xl'>
 
               </TextGenerateEffect>
               <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                Hi! I&apos;m Raj, Web Developer
+                Hi! I&apos;m Raj Prajapati
               </p>
-              <a href="#about">
+              <a href="#projects">
                 <MagicButton title='My Works' icon={<FaLocationArrow/>} position={'right'}/>
               </a>
             </div>
