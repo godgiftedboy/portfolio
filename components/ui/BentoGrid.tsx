@@ -161,7 +161,6 @@ export const BentoGridItem = ({
                 otherClasses="!bg-[#161A31]"  
               />
               </div>
-              
             </div>
           )}
 
