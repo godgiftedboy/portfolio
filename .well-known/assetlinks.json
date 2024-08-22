@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.redwirepvtltd.rainadevi",
+      "sha256_cert_fingerprints": [
+        "2B:DA:1E:0A:E4:7A:DE:17:50:06:14:ED:98:17:78:36:59:88:0B:0E:A5:67:DD:69:B1:A2:4D:A0:73:EA:0F:C1"
+      ]
+    }
+  }
+]
